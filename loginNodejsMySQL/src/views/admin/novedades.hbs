@@ -1,0 +1,58 @@
+<div>
+    {{!-- fila 1 --}}
+    <div>
+        <p>
+            hola {{usuario}}! <a> cerrar cession <i></i></a>
+        </p>
+    </div>
+    //fila 1
+    //fila2
+    <div>
+        <div>
+            <h3>listado de novedades</h3>
+        </div>
+    <div>
+        <a> <i></i> nuevo</a>
+    </div>
+    
+    </div>
+</div>
+//fila 3
+<div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>titulo</th>
+                    <th>accioness</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>titulo</td>
+                    <td>
+                        <a href="">
+                            <i></i>
+                        </a>
+                        <a href=""><i></i></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<tbody>
+    {{#each novedades}}
+    <tr>
+        <th>{{id}} </th>
+        <td>{{titulo}} </td>
+        <td>
+            <a href=""><i></i></a>
+            <a href=""><i></i></a>
+        </td>
+    </tr>
+    {{/each}}
+</tbody>
+<div><a href=""><i>nuevo</i></a></div>
